@@ -1,0 +1,89 @@
+body,html{
+    height: 100%;
+    margin:0;
+    font-size:14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    line-height: normal;
+    color:black;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.nav-bar{
+    position:sticky;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    opacity:.95; 
+   
+}
+.container1{
+    position: inherit;
+    display: flex;
+    opacity: 0.95;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    position: sticky;
+}
+
+.container1{
+    background-image:url(https://www.secureworld.io/hs-fs/hubfs/live-cyber-attack-map-sonicwall.png?width=1729&name=live-cyber-attack-map-sonicwall.png);
+    height: 100vh;
+    
+}
+.container2{
+    background-image: url(https://westoahu.hawaii.edu/cyber/wp-content/uploads/2018/09/kasp-threatmap.png);
+    height: 100vh;
+}
+.container3{
+    background-image: url(https://media.wired.co.uk/photos/606da219ef15037f5885370b/master/w_1600%2Cc_limit/KASPERSKY.png);
+    min-height: 100vh;
+}
+.section{
+    text-align:center;
+    padding:50px 80px;
+}
+.section-light{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+
+}
+.section-dark{
+    background-color: black;
+    color:White;
+    margin-bottom: 10px;
+}
+.container-text1{
+    position: relative;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:black;
+    font-size: 27px;
+    letter-spacing: normal;
+}
+.container-text1 .border{
+    background-color:black;
+    color:whitesmoke;
+    padding:20px;
+}
+.container-text1.border.trans{
+    background-color: transparent;
+    opacity: 1;
+}
+.footer{
+    margin-top: 10px;
+    text-align: center;
+   
+}
+@media(max-width:568px){
+    .container1,.container2,.container3{
+        background-attachment:scroll;
+    }
+}
